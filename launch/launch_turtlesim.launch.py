@@ -49,9 +49,8 @@ def generate_launch_description():
         )
 
     return LaunchDescription([
-        turtlesim_world_2_with_namespace,
         turtlesim_world_1,
-        # turtlesim_world_2,
+        turtlesim_world_2,
         # turtlesim_world_2_with_namespace,
         broadcaster_listener_nodes,
         mimic_node,

@@ -24,11 +24,11 @@ def generate_launch_description():
             package='turtlesim',
             executable='turtlesim_node',
             name='sim',
+            namespace='',
             parameters=[{
                 'background_r': LaunchConfiguration('background_r'),
                 'background_g': LaunchConfiguration('background_g'),
                 'background_b': LaunchConfiguration('background_b'),
             }]
-
         ),
     ])

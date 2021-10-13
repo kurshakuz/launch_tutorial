@@ -20,5 +20,12 @@ def generate_launch_description():
             # namespace='turtlesim2',
             name='sim',
             parameters=[config]
+        ),
+        Node(
+            package='turtlesim',
+            executable='turtlesim_node',
+            namespace='turtlesim3',
+            name='sim',
+            parameters=[config]
         )
     ])
